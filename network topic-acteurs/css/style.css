@@ -219,15 +219,17 @@ margin-right:10px;
 	display:none;
 }
 
+/* Logo */
 #maintitle {
     width: 240px;
     height: 72px;
-    background-image: url('../images/Logo_VIA_INNO.png'); /* Spaces encoded as %20 */
+    background-image: url('../images/logo_via_inno.png'); /* Adjust path as needed */
     background-repeat: no-repeat;
-    background-size: contain;  /* Ensures the logo fits within the div */
-    background-position: center center; /* Centers the logo */
-    display: block; /* Ensures the div is visible */
+    background-size: contain;
+    background-position: center center;
+    display: block;
     margin-bottom: 20px;
+    position: relative;
 }
 
 #maintitle h1 {
