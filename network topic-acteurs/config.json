@@ -10,12 +10,12 @@
   "text": {
     "more": "",
     "intro": "",
-    "title": ""
+    "title": "Organization positioning network"
   },
   "legend": {
     "edgeLabel": "Topic positioning",
-    "colorLabel": "",
-    "nodeLabel": "Entity"
+    "colorLabel": "Organizations & Topics",
+    "nodeLabel": "Organization"
   },
   "features": {
     "search": true,
