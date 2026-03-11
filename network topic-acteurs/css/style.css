@@ -220,11 +220,14 @@ margin-right:10px;
 }
 
 #maintitle {
-width: 240px;
-height: 72px;
-background-image: url('../images/Logo VIA INNO.png');
-background-repeat: no-repeat;
-margin-bottom:20px;
+    width: 240px;
+    height: 72px;
+    background-image: url('../images/Logo_VIA_INNO.png'); /* Spaces encoded as %20 */
+    background-repeat: no-repeat;
+    background-size: contain;  /* Ensures the logo fits within the div */
+    background-position: center center; /* Centers the logo */
+    display: block; /* Ensures the div is visible */
+    margin-bottom: 20px;
 }
 
 #maintitle h1 {
